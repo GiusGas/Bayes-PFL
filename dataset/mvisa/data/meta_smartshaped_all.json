@@ -1,0 +1,863 @@
+{
+    "test": {
+        "container": [
+            {
+                "img_path": "smartshaped/container/test/anomaly/0_-_NLLU2020394_6475_jpg.rf.af78472d0ec1e2a2d2165fb018ed909b.jpg",
+                "mask_path": "smartshaped/container/ground_truth/anomaly/0_-_NLLU2020394_6475_jpg.rf.af78472d0ec1e2a2d2165fb018ed909b.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "smartshaped",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/test/anomaly/0_FTAU1732840_9738_jpg.rf.56fae172083f10f4fbe8c1046debf96f.jpg",
+                "mask_path": "smartshaped/container/ground_truth/anomaly/0_FTAU1732840_9738_jpg.rf.56fae172083f10f4fbe8c1046debf96f.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "smartshaped",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/test/anomaly/1_-_-_XFVU2907597_4523_jpg.rf.61032257264c00f2b373dbb0b02d8bdc.jpg",
+                "mask_path": "smartshaped/container/ground_truth/anomaly/1_-_-_XFVU2907597_4523_jpg.rf.61032257264c00f2b373dbb0b02d8bdc.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "smartshaped",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/test/anomaly/1_-_FFAU4689544_2666_jpg.rf.8e7f81139a453edf801f63e97efbc42e.jpg",
+                "mask_path": "smartshaped/container/ground_truth/anomaly/1_-_FFAU4689544_2666_jpg.rf.8e7f81139a453edf801f63e97efbc42e.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "smartshaped",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/test/anomaly/1_jpg.rf.a2b0b4bfe9c3534903304cb848a77959.jpg",
+                "mask_path": "smartshaped/container/ground_truth/anomaly/1_jpg.rf.a2b0b4bfe9c3534903304cb848a77959.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "smartshaped",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/test/anomaly/3_-_XFVU2911508_2398_jpg.rf.f8d92cd551f26c4e23be956e2bf58950.jpg",
+                "mask_path": "smartshaped/container/ground_truth/anomaly/3_-_XFVU2911508_2398_jpg.rf.f8d92cd551f26c4e23be956e2bf58950.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "smartshaped",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/test/anomaly/3_-_XFVU2946715_5345_jpg.rf.cf17b12ebe8658755bbeaecd2a102295.jpg",
+                "mask_path": "smartshaped/container/ground_truth/anomaly/3_-_XFVU2946715_5345_jpg.rf.cf17b12ebe8658755bbeaecd2a102295.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "smartshaped",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/test/anomaly/20ft-Used-shipping-container-B-Grade_jpg.rf.a8efe7b07d6bf356e085fefd12473907.jpg",
+                "mask_path": "smartshaped/container/ground_truth/anomaly/20ft-Used-shipping-container-B-Grade_jpg.rf.a8efe7b07d6bf356e085fefd12473907.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "smartshaped",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/test/anomaly/27_jpg.rf.b44ccb6ebd5d4645f94eec8aeb9a6ff0.jpg",
+                "mask_path": "smartshaped/container/ground_truth/anomaly/27_jpg.rf.b44ccb6ebd5d4645f94eec8aeb9a6ff0.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "smartshaped",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/test/anomaly/28_jpg.rf.9be10f28b82df6c5b1d860174de70d44.jpg",
+                "mask_path": "smartshaped/container/ground_truth/anomaly/28_jpg.rf.9be10f28b82df6c5b1d860174de70d44.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "smartshaped",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/test/anomaly/54_jpg.rf.5c33176c7069cb7ea93b61e27093317c.jpg",
+                "mask_path": "smartshaped/container/ground_truth/anomaly/54_jpg.rf.5c33176c7069cb7ea93b61e27093317c.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "smartshaped",
+                "anomaly": 1
+            },{
+                "img_path": "smartshaped/container/test/anomaly/60_png.rf.8fa147e313bd1bafdabc7eae492ce3bf.jpg",
+                "mask_path": "smartshaped/container/ground_truth/anomaly/60_png.rf.8fa147e313bd1bafdabc7eae492ce3bf.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "smartshaped",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/test/anomaly/61_png.rf.2af008d46130a61fcb6943cb69bf616a.jpg",
+                "mask_path": "smartshaped/container/ground_truth/anomaly/61_png.rf.2af008d46130a61fcb6943cb69bf616a.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "smartshaped",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/test/anomaly/64_png.rf.473f9b659c03f68f3afd0f2641120ad3.jpg",
+                "mask_path": "smartshaped/container/ground_truth/anomaly/64_png.rf.473f9b659c03f68f3afd0f2641120ad3.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "smartshaped",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/test/anomaly/80_jpg.rf.1a8882938748827b34ebb784e8d5cf23.jpg",
+                "mask_path": "smartshaped/container/ground_truth/anomaly/80_jpg.rf.1a8882938748827b34ebb784e8d5cf23.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "smartshaped",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/test/anomaly/87_jpg.rf.38d8610bbd0bc855beb34130b7a334b0.jpg",
+                "mask_path": "smartshaped/container/ground_truth/anomaly/87_jpg.rf.38d8610bbd0bc855beb34130b7a334b0.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "smartshaped",
+                "anomaly": 1
+            },{
+                "img_path": "smartshaped/container/test/anomaly/88_jpg.rf.90640ca118a87be707374e25a80c90f5.jpg",
+                "mask_path": "smartshaped/container/ground_truth/anomaly/88_jpg.rf.90640ca118a87be707374e25a80c90f5.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "smartshaped",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/test/anomaly/89_jpg.rf.7d68a63d6c9588e34d34e3ba0dc1add1.jpg",
+                "mask_path": "smartshaped/container/ground_truth/anomaly/89_jpg.rf.7d68a63d6c9588e34d34e3ba0dc1add1.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "smartshaped",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/test/anomaly/94_jpg.rf.dca5e256d068f3183a4a43ab27cca450.jpg",
+                "mask_path": "smartshaped/container/ground_truth/anomaly/94_jpg.rf.dca5e256d068f3183a4a43ab27cca450.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "smartshaped",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/test/anomaly/107_jpg.rf.8c5804f878cac51f919c8ff2a097b816.jpg",
+                "mask_path": "smartshaped/container/ground_truth/anomaly/107_jpg.rf.8c5804f878cac51f919c8ff2a097b816.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "smartshaped",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/test/anomaly/116_jpg.rf.1b75b07cec71163b9caa092013d46886.jpg",
+                "mask_path": "smartshaped/container/ground_truth/anomaly/116_jpg.rf.1b75b07cec71163b9caa092013d46886.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "smartshaped",
+                "anomaly": 1
+            },{
+                "img_path": "smartshaped/container/test/anomaly/182937667_103139_lp_jpg.rf.0bbf5e3670b5a2a708ddb3840ea62351.jpg",
+                "mask_path": "smartshaped/container/ground_truth/anomaly/182937667_103139_lp_jpg.rf.0bbf5e3670b5a2a708ddb3840ea62351.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "smartshaped",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/test/anomaly/636598363636205671_jpeg.rf.65f11d9b73128a734d6434fd61696d4e.jpg",
+                "mask_path": "smartshaped/container/ground_truth/anomaly/636598363636205671_jpeg.rf.65f11d9b73128a734d6434fd61696d4e.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "smartshaped",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/test/anomaly/B-grade-Container_jpg.rf.1fb492c5f7880593152e6826af13808d.jpg",
+                "mask_path": "smartshaped/container/ground_truth/anomaly/B-grade-Container_jpg.rf.1fb492c5f7880593152e6826af13808d.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "smartshaped",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/test/anomaly/vlc-record-2022-12-08-18h01m52s-NVR_ch2_main_20220902120000_20220902130000_mp4-_mp4-3_jpg.rf.b2900c35bd7490e1bf6d802dc9f6c70e.jpg",
+                "mask_path": "smartshaped/container/ground_truth/anomaly/vlc-record-2022-12-08-18h01m52s-NVR_ch2_main_20220902120000_20220902130000_mp4-_mp4-3_jpg.rf.b2900c35bd7490e1bf6d802dc9f6c70e.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "smartshaped",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/test/good/8cf0927db48270caad27460e8eedc907_jpg.rf.9478a7396cfa87a4b5fb91860ec33477.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/test/good/20ft-GP-A-Grade-Buy-a-Shipping-Container-size_jpg.rf.e89c04c5e53901aafe70d4843004e803.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/test/good/9-500x480.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/test/good/40-dv-shipping-container-500x500_jpg.rf.72758e346486b750173ac255db16c558.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/test/good/81ceb58693844a18a355dd475a9d83b7_jpg.rf.8f1f980c62555df0ed75a979c1e11bfe.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/test/good/51-DrQ+ETVL._SS400_.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/test/good/10'TR_ricavato_da_20'box_azzurro.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/test/good/New-20ft.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/test/good/263_jpg.rf.fc6f35d33cd00a5ffeb32947fdd6a4e8.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/test/good/264_jpg.rf.fb58112e8bbc8c9e283ed5497f96d3e7.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/test/good/286_jpg.rf.8e1e1a860bacb5bea86e76f8f144edbb.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/test/good/SOCU-124-RAL-9010-BC_03.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/test/good/315_jpg.rf.d2ccd242cc3bd5f0c2385bfe90c86b49.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/test/good/406_jpg.rf.e5931bf0e0916f280ff72ca02ccc95fb.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/test/good/BARI-CONTAINERS-08BOX_1-2.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/test/good/used-red-color-shipping-container-20ft-40ft-40hc--740.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/test/good/1190_jpg.rf.120bd55557ed13affd571e3bbfb19551.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/test/good/1333_jpg.rf.1ef5df4d293b8059ce3ed4d889bb0233.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/test/good/401495467_e6c18c4470_b_jpg.rf.4b24d3f5381f5e079c007050e96edab5.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/test/good/ban-container-cu-gia-re_jpg.rf.a183dd9dc658232d751e71d0a6fd6466.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/test/good/cid_D0874520-31B3-41EC-B89B-BE14BB27F838_jpg.rf.1d2de744ef92b57ced4033c2afb753d3.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/test/good/cont-45_jpg.rf.a956b0a0389cbfeff5f271cb71a863e0.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/test/good/containers-20ft-new-one-trip-shipping-container-1651269_jpg.rf.569f46f6718927ab5b1081970200b4bc.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/test/good/highway_logistics1-1024x683_jpg.rf.012e03c996524a338bf42a0574bab92b.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/test/good/IMG_2563-JPG_png.rf.4e41ced7777ffb57a82cf79bd31ae68f.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            }
+        ],
+        "coperchio": [
+            {
+                "img_path": "smartshaped/coperchio/test/anomaly/001.jpg",
+                "mask_path": "smartshaped/coperchio/ground_truth/anomaly/001.png",
+                "cls_name": "coperchio",
+                "specie_name": "anomaly",
+                "dataset_name": "smartshaped",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/coperchio/test/anomaly/002.jpg",
+                "mask_path": "smartshaped/coperchio/ground_truth/anomaly/002.png",
+                "cls_name": "coperchio",
+                "specie_name": "anomaly",
+                "dataset_name": "smartshaped",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/coperchio/test/anomaly/003.jpg",
+                "mask_path": "smartshaped/coperchio/ground_truth/anomaly/003.png",
+                "cls_name": "coperchio",
+                "specie_name": "anomaly",
+                "dataset_name": "smartshaped",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/coperchio/test/anomaly/004.jpg",
+                "mask_path": "smartshaped/coperchio/ground_truth/anomaly/004.png",
+                "cls_name": "coperchio",
+                "specie_name": "anomaly",
+                "dataset_name": "smartshaped",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/coperchio/test/anomaly/005.jpg",
+                "mask_path": "smartshaped/coperchio/ground_truth/anomaly/005.png",
+                "cls_name": "coperchio",
+                "specie_name": "anomaly",
+                "dataset_name": "smartshaped",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/coperchio/test/anomaly/006.jpg",
+                "mask_path": "smartshaped/coperchio/ground_truth/anomaly/006.png",
+                "cls_name": "coperchio",
+                "specie_name": "anomaly",
+                "dataset_name": "smartshaped",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/coperchio/test/anomaly/007.jpg",
+                "mask_path": "smartshaped/coperchio/ground_truth/anomaly/007.png",
+                "cls_name": "coperchio",
+                "specie_name": "anomaly",
+                "dataset_name": "smartshaped",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/coperchio/test/anomaly/008.jpg",
+                "mask_path": "smartshaped/coperchio/ground_truth/anomaly/008.png",
+                "cls_name": "coperchio",
+                "specie_name": "anomaly",
+                "dataset_name": "smartshaped",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/coperchio/test/anomaly/009.jpg",
+                "mask_path": "smartshaped/coperchio/ground_truth/anomaly/009.png",
+                "cls_name": "coperchio",
+                "specie_name": "anomaly",
+                "dataset_name": "smartshaped",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/coperchio/test/anomaly/010.jpg",
+                "mask_path": "smartshaped/coperchio/ground_truth/anomaly/010.png",
+                "cls_name": "coperchio",
+                "specie_name": "anomaly",
+                "dataset_name": "smartshaped",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/coperchio/test/anomaly/011.jpg",
+                "mask_path": "smartshaped/coperchio/ground_truth/anomaly/011.png",
+                "cls_name": "coperchio",
+                "specie_name": "anomaly",
+                "dataset_name": "smartshaped",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/coperchio/test/good/000.jpg",
+                "mask_path": "",
+                "cls_name": "coperchio",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/coperchio/test/good/000_rot135.jpg",
+                "mask_path": "",
+                "cls_name": "coperchio",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/coperchio/test/good/000_rot225.jpg",
+                "mask_path": "",
+                "cls_name": "coperchio",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/coperchio/test/good/000_rot315.jpg",
+                "mask_path": "",
+                "cls_name": "coperchio",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/coperchio/test/good/001.jpg",
+                "mask_path": "",
+                "cls_name": "coperchio",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/coperchio/test/good/001_rot135.jpg",
+                "mask_path": "",
+                "cls_name": "coperchio",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/coperchio/test/good/001_rot225.jpg",
+                "mask_path": "",
+                "cls_name": "coperchio",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/coperchio/test/good/001_rot315.jpg",
+                "mask_path": "",
+                "cls_name": "coperchio",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/coperchio/test/good/002.jpg",
+                "mask_path": "",
+                "cls_name": "coperchio",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/coperchio/test/good/002_rot135.jpg",
+                "mask_path": "",
+                "cls_name": "coperchio",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/coperchio/test/good/002_rot225.jpg",
+                "mask_path": "",
+                "cls_name": "coperchio",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/coperchio/test/good/002_rot315.jpg",
+                "mask_path": "",
+                "cls_name": "coperchio",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/coperchio/test/good/003.jpg",
+                "mask_path": "",
+                "cls_name": "coperchio",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/coperchio/test/good/003_rot135.jpg",
+                "mask_path": "",
+                "cls_name": "coperchio",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/coperchio/test/good/003_rot225.jpg",
+                "mask_path": "",
+                "cls_name": "coperchio",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/coperchio/test/good/003_rot315.jpg",
+                "mask_path": "",
+                "cls_name": "coperchio",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            }
+        ],
+        "manico": [
+            {
+                "img_path": "smartshaped/manico/test/anomaly/001.jpg",
+                "mask_path": "smartshaped/manico/ground_truth/anomaly/001.png",
+                "cls_name": "manico",
+                "specie_name": "anomaly",
+                "dataset_name": "smartshaped",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/manico/test/anomaly/002.jpg",
+                "mask_path": "smartshaped/manico/ground_truth/anomaly/002.png",
+                "cls_name": "manico",
+                "specie_name": "anomaly",
+                "dataset_name": "smartshaped",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/manico/test/anomaly/003.jpg",
+                "mask_path": "smartshaped/manico/ground_truth/anomaly/003.png",
+                "cls_name": "manico",
+                "specie_name": "anomaly",
+                "dataset_name": "smartshaped",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/manico/test/anomaly/004.jpg",
+                "mask_path": "smartshaped/manico/ground_truth/anomaly/004.png",
+                "cls_name": "manico",
+                "specie_name": "anomaly",
+                "dataset_name": "smartshaped",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/manico/test/anomaly/005.jpg",
+                "mask_path": "smartshaped/manico/ground_truth/anomaly/005.png",
+                "cls_name": "manico",
+                "specie_name": "anomaly",
+                "dataset_name": "smartshaped",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/manico/test/anomaly/006.jpg",
+                "mask_path": "smartshaped/manico/ground_truth/anomaly/006.png",
+                "cls_name": "manico",
+                "specie_name": "anomaly",
+                "dataset_name": "smartshaped",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/manico/test/anomaly/007.jpg",
+                "mask_path": "smartshaped/manico/ground_truth/anomaly/007.png",
+                "cls_name": "manico",
+                "specie_name": "anomaly",
+                "dataset_name": "smartshaped",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/manico/test/anomaly/008.jpg",
+                "mask_path": "smartshaped/manico/ground_truth/anomaly/008.png",
+                "cls_name": "manico",
+                "specie_name": "anomaly",
+                "dataset_name": "smartshaped",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/manico/test/anomaly/009.jpg",
+                "mask_path": "smartshaped/manico/ground_truth/anomaly/009.png",
+                "cls_name": "manico",
+                "specie_name": "anomaly",
+                "dataset_name": "smartshaped",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/manico/test/anomaly/010.jpg",
+                "mask_path": "smartshaped/manico/ground_truth/anomaly/010.png",
+                "cls_name": "manico",
+                "specie_name": "anomaly",
+                "dataset_name": "smartshaped",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/manico/test/anomaly/011.jpg",
+                "mask_path": "smartshaped/manico/ground_truth/anomaly/011.png",
+                "cls_name": "manico",
+                "specie_name": "anomaly",
+                "dataset_name": "smartshaped",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/manico/test/anomaly/012.jpg",
+                "mask_path": "smartshaped/manico/ground_truth/anomaly/012.png",
+                "cls_name": "manico",
+                "specie_name": "anomaly",
+                "dataset_name": "smartshaped",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/manico/test/anomaly/013.jpg",
+                "mask_path": "smartshaped/manico/ground_truth/anomaly/013.png",
+                "cls_name": "manico",
+                "specie_name": "anomaly",
+                "dataset_name": "smartshaped",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/manico/test/anomaly/014.jpg",
+                "mask_path": "smartshaped/manico/ground_truth/anomaly/014.png",
+                "cls_name": "manico",
+                "specie_name": "anomaly",
+                "dataset_name": "smartshaped",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/manico/test/good/000.jpg",
+                "mask_path": "",
+                "cls_name": "manico",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/manico/test/good/000_rot90.jpg",
+                "mask_path": "",
+                "cls_name": "manico",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/manico/test/good/000_rot180.jpg",
+                "mask_path": "",
+                "cls_name": "manico",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/manico/test/good/000_rot270.jpg",
+                "mask_path": "",
+                "cls_name": "manico",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/manico/test/good/001.jpg",
+                "mask_path": "",
+                "cls_name": "manico",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/manico/test/good/001_rot90.jpg",
+                "mask_path": "",
+                "cls_name": "manico",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/manico/test/good/001_rot180.jpg",
+                "mask_path": "",
+                "cls_name": "manico",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/manico/test/good/001_rot270.jpg",
+                "mask_path": "",
+                "cls_name": "manico",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/manico/test/good/002.jpg",
+                "mask_path": "",
+                "cls_name": "manico",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/manico/test/good/002_rot90.jpg",
+                "mask_path": "",
+                "cls_name": "manico",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/manico/test/good/002_rot180.jpg",
+                "mask_path": "",
+                "cls_name": "manico",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/manico/test/good/002_rot270.jpg",
+                "mask_path": "",
+                "cls_name": "manico",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/manico/test/good/003.jpg",
+                "mask_path": "",
+                "cls_name": "manico",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/manico/test/good/003_rot90.jpg",
+                "mask_path": "",
+                "cls_name": "manico",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/manico/test/good/003_rot180.jpg",
+                "mask_path": "",
+                "cls_name": "manico",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/manico/test/good/003_rot270.jpg",
+                "mask_path": "",
+                "cls_name": "manico",
+                "specie_name": "good",
+                "dataset_name": "smartshaped",
+                "anomaly": 0
+            }
+        ]   
+    }
+}

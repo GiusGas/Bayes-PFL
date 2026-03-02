@@ -70,6 +70,7 @@ class metaSolver(object):
 if __name__ == '__main__':
     
     dataset_list = ["ISIC", "ClinicDB", "ColonDB", "HeadCT", "DTD", "HeadCT", "Endo", "BrainMRI", "Br35H", "BTAD", "DAGM", "KSDD2", "RSDD"]
+    dataset_list = ["smartshaped"]
 
     for dataset_name in dataset_list:
         runner = metaSolver(root=f"./dataset/mvisa/data/{dataset_name}", meta_path=f"./dataset/mvisa/data/meta_{dataset_name}.json", datasets= dataset_name)  #new_anomaly_set

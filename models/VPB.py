@@ -14,7 +14,10 @@ class_mapping = {
     "pcb4": "printed circuit board",
     "pipe_fryum": "pipe fryum",
     "chewinggum": "chewing gum",
-    "metal_nut": "metal nut"
+    "metal_nut": "metal nut",
+    "container": "shipping container",
+    "hinges": "industrial hinges on a metal container",
+    "container_door": "shipping container door"
 }
 class InferenceBlock(nn.Module):
     def __init__(self, input_units, d_theta, output_units):

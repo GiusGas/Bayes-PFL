@@ -211,8 +211,8 @@ def calcuate_metric_pixel(results, obj_list, logger, alpha = 0.9, sigm = 4, args
             f1_scores = (2 * precisions * recalls) / (precisions + recalls + 1e-6)
             best_threshold_cls = thresholds[np.argmax(f1_scores)]
             f1_sp = np.max(f1_scores[np.isfinite(f1_scores)])
-            #aupro_sp = auc(recalls, precisions)
-            aupro_sp = 0
+            aupro_sp = auc(recalls, precisions)
+            # aupro_sp = 0
 
 
 
@@ -230,8 +230,8 @@ def calcuate_metric_pixel(results, obj_list, logger, alpha = 0.9, sigm = 4, args
         # aupro
         gt_px = gt_px.squeeze()
         pr_px = pr_px.squeeze()
-        #aupro_px = cal_pro_score(gt_px, pr_px)
-        aupro_px = 0
+        aupro_px = cal_pro_score(gt_px, pr_px)
+        # aupro_px = 0
 
         
         print("Visualization {}".format(obj))

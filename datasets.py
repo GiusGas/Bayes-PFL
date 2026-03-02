@@ -70,7 +70,7 @@ class MyDataset(data.Dataset):
 
 		if mode == "train":
 			meta_info = json.load(open(f'{self.root}/meta_{self.dataset}.json', 'r'))
-			meta_info = meta_info["test"]
+			meta_info = meta_info["train"]
 			if product_list is not None:
 				keys = meta_info.keys()
 				keys = list(keys)
@@ -95,6 +95,19 @@ class MyDataset(data.Dataset):
 
 			self.cls_names = list(meta_info.keys())
 			#self.cls_names = ["bottle"]
+			for cls_name in self.cls_names:
+				self.data_all.extend(meta_info[cls_name])
+		elif mode == "valid":
+			meta_info = json.load(open(f'{self.root}/meta_{self.dataset}.json', 'r'))
+			meta_info = meta_info["valid"]
+			if product_list is not None:
+				keys = meta_info.keys()
+				keys = list(keys)
+				for key in keys:
+					if key not in product_list:
+						del meta_info[key]
+
+			self.cls_names = list(meta_info.keys())
 			for cls_name in self.cls_names:
 				self.data_all.extend(meta_info[cls_name])
 		

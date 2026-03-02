@@ -1,0 +1,2690 @@
+{
+    "train": {
+        "hinges": [
+            {
+                "img_path": "smartshaped/hinges/train/good/0001.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0002.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0003.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0004.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0005.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0006.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0007.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0008.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0009.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0010.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0011.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0012.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0013.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0014.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0015.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0016.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0017.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0018.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0019.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0020.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0021.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0022.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0023.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0024.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0025.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0026.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0027.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0028.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0029.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0030.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0031.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0032.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0033.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0034.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0035.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0036.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0037.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0038.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0039.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0040.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0041.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0042.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0043.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0044.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0045.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0046.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0047.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0048.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0049.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0050.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0051.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0052.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0053.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0054.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0055.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0056.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0057.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0058.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0059.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0060.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0061.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0062.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0063.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0064.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0065.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0066.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0067.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0068.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0069.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0070.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0071.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0072.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0073.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0074.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0075.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0076.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0077.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0078.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0079.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0080.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0081.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0082.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0083.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0084.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0085.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/hinges/train/good/0086.jpg",
+                "mask_path": "",
+                "cls_name": "hinges",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            }
+        ],
+        "container": [
+            {
+                "img_path": "smartshaped/container/train/good/0004.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0006.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0007.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0008.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0009.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0010.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0011.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0012.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0013.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0014.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0015.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0016.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0017.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0018.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0019.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0020.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0021.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0022.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0023.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0024.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0025.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0026.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0027.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0029.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0030.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0031.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0033.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0034.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0035.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0037.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0038.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0039.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0040.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0042.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0043.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0044.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0045.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0046.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0047.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0048.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0049.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0050.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0051.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0052.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0053.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0054.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0056.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0057.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0058.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0060.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0061.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0062.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0063.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0064.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0065.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0066.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0067.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0068.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0069.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0070.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0072.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0073.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0074.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0076.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0077.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0078.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0079.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0080.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0081.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0082.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0083.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0084.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0085.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0086.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0087.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0088.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0089.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0090.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0091.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/good/0092.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/train/anomaly/0002.jpg",
+                "mask_path": "smartshaped/container/train/ground_truth/0002.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/train/anomaly/0003.jpg",
+                "mask_path": "smartshaped/container/train/ground_truth/0003.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/train/anomaly/0004.jpg",
+                "mask_path": "smartshaped/container/train/ground_truth/0004.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/train/anomaly/0005.jpg",
+                "mask_path": "smartshaped/container/train/ground_truth/0005.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/train/anomaly/0006.jpg",
+                "mask_path": "smartshaped/container/train/ground_truth/0006.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/train/anomaly/0007.jpg",
+                "mask_path": "smartshaped/container/train/ground_truth/0007.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/train/anomaly/0009.jpg",
+                "mask_path": "smartshaped/container/train/ground_truth/0009.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/train/anomaly/0010.jpg",
+                "mask_path": "smartshaped/container/train/ground_truth/0010.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/train/anomaly/0011.jpg",
+                "mask_path": "smartshaped/container/train/ground_truth/0011.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/train/anomaly/0012.jpg",
+                "mask_path": "smartshaped/container/train/ground_truth/0012.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/train/anomaly/0013.jpg",
+                "mask_path": "smartshaped/container/train/ground_truth/0013.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/train/anomaly/0014.jpg",
+                "mask_path": "smartshaped/container/train/ground_truth/0014.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/train/anomaly/0015.jpg",
+                "mask_path": "smartshaped/container/train/ground_truth/0015.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/train/anomaly/0016.jpg",
+                "mask_path": "smartshaped/container/train/ground_truth/0016.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/train/anomaly/0018.jpg",
+                "mask_path": "smartshaped/container/train/ground_truth/0018.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/train/anomaly/0019.jpg",
+                "mask_path": "smartshaped/container/train/ground_truth/0019.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/train/anomaly/0020.jpg",
+                "mask_path": "smartshaped/container/train/ground_truth/0020.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/train/anomaly/0021.jpg",
+                "mask_path": "smartshaped/container/train/ground_truth/0021.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/train/anomaly/0022.jpg",
+                "mask_path": "smartshaped/container/train/ground_truth/0022.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/train/anomaly/0023.jpg",
+                "mask_path": "smartshaped/container/train/ground_truth/0023.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/train/anomaly/0024.jpg",
+                "mask_path": "smartshaped/container/train/ground_truth/0024.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/train/anomaly/0025.jpg",
+                "mask_path": "smartshaped/container/train/ground_truth/0025.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/train/anomaly/0026.jpg",
+                "mask_path": "smartshaped/container/train/ground_truth/0026.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/train/anomaly/0029.jpg",
+                "mask_path": "smartshaped/container/train/ground_truth/0029.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/train/anomaly/0030.jpg",
+                "mask_path": "smartshaped/container/train/ground_truth/0030.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/train/anomaly/0031.jpg",
+                "mask_path": "smartshaped/container/train/ground_truth/0031.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/train/anomaly/0032.jpg",
+                "mask_path": "smartshaped/container/train/ground_truth/0032.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/train/anomaly/0034.jpg",
+                "mask_path": "smartshaped/container/train/ground_truth/0034.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/train/anomaly/0035.jpg",
+                "mask_path": "smartshaped/container/train/ground_truth/0035.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/train/anomaly/0036.jpg",
+                "mask_path": "smartshaped/container/train/ground_truth/0036.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/train/anomaly/0037.jpg",
+                "mask_path": "smartshaped/container/train/ground_truth/0037.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/train/anomaly/0038.jpg",
+                "mask_path": "smartshaped/container/train/ground_truth/0038.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            }
+        ],
+        "container_door": [
+            {
+                "img_path": "smartshaped/container_door/train/good/0001.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0002.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0003.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0004.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0005.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0006.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0007.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0008.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0009.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0010.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0011.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0012.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0013.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0014.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0015.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0016.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0017.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0018.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0019.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0020.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0021.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0022.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0023.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0024.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0025.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0026.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0027.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0028.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0029.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0030.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0031.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0032.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0033.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0034.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0035.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0036.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0037.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0038.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0039.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0040.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0041.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0042.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0043.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0044.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0045.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0046.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0047.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0048.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0049.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0050.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0051.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0052.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0053.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0054.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0055.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0056.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0057.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0058.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0059.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0060.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0061.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0062.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0063.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0064.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0065.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0066.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0067.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container_door/train/good/0068.jpg",
+                "mask_path": "",
+                "cls_name": "container_door",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            }
+        ]
+    },
+    "test": {
+        "container": [
+            {
+                "img_path": "smartshaped/container/test/anomaly/0_-_NLLU2020394_6475_jpg.rf.af78472d0ec1e2a2d2165fb018ed909b.jpg",
+                "mask_path": "smartshaped/container/ground_truth/anomaly/0_-_NLLU2020394_6475_jpg.rf.af78472d0ec1e2a2d2165fb018ed909b.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/test/anomaly/0_FTAU1732840_9738_jpg.rf.56fae172083f10f4fbe8c1046debf96f.jpg",
+                "mask_path": "smartshaped/container/ground_truth/anomaly/0_FTAU1732840_9738_jpg.rf.56fae172083f10f4fbe8c1046debf96f.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/test/anomaly/107_jpg.rf.8c5804f878cac51f919c8ff2a097b816.jpg",
+                "mask_path": "smartshaped/container/ground_truth/anomaly/107_jpg.rf.8c5804f878cac51f919c8ff2a097b816.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/test/anomaly/116_jpg.rf.1b75b07cec71163b9caa092013d46886.jpg",
+                "mask_path": "smartshaped/container/ground_truth/anomaly/116_jpg.rf.1b75b07cec71163b9caa092013d46886.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/test/anomaly/182937667_103139_lp_jpg.rf.0bbf5e3670b5a2a708ddb3840ea62351.jpg",
+                "mask_path": "smartshaped/container/ground_truth/anomaly/182937667_103139_lp_jpg.rf.0bbf5e3670b5a2a708ddb3840ea62351.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/test/anomaly/1_-_-_XFVU2907597_4523_jpg.rf.61032257264c00f2b373dbb0b02d8bdc.jpg",
+                "mask_path": "smartshaped/container/ground_truth/anomaly/1_-_-_XFVU2907597_4523_jpg.rf.61032257264c00f2b373dbb0b02d8bdc.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/test/anomaly/1_-_FFAU4689544_2666_jpg.rf.8e7f81139a453edf801f63e97efbc42e.jpg",
+                "mask_path": "smartshaped/container/ground_truth/anomaly/1_-_FFAU4689544_2666_jpg.rf.8e7f81139a453edf801f63e97efbc42e.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/test/anomaly/1_jpg.rf.a2b0b4bfe9c3534903304cb848a77959.jpg",
+                "mask_path": "smartshaped/container/ground_truth/anomaly/1_jpg.rf.a2b0b4bfe9c3534903304cb848a77959.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/test/anomaly/20ft-Used-shipping-container-B-Grade_jpg.rf.a8efe7b07d6bf356e085fefd12473907.jpg",
+                "mask_path": "smartshaped/container/ground_truth/anomaly/20ft-Used-shipping-container-B-Grade_jpg.rf.a8efe7b07d6bf356e085fefd12473907.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/test/anomaly/27_jpg.rf.b44ccb6ebd5d4645f94eec8aeb9a6ff0.jpg",
+                "mask_path": "smartshaped/container/ground_truth/anomaly/27_jpg.rf.b44ccb6ebd5d4645f94eec8aeb9a6ff0.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/test/anomaly/28_jpg.rf.9be10f28b82df6c5b1d860174de70d44.jpg",
+                "mask_path": "smartshaped/container/ground_truth/anomaly/28_jpg.rf.9be10f28b82df6c5b1d860174de70d44.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/test/anomaly/3_-_XFVU2911508_2398_jpg.rf.f8d92cd551f26c4e23be956e2bf58950.jpg",
+                "mask_path": "smartshaped/container/ground_truth/anomaly/3_-_XFVU2911508_2398_jpg.rf.f8d92cd551f26c4e23be956e2bf58950.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/test/anomaly/3_-_XFVU2946715_5345_jpg.rf.cf17b12ebe8658755bbeaecd2a102295.jpg",
+                "mask_path": "smartshaped/container/ground_truth/anomaly/3_-_XFVU2946715_5345_jpg.rf.cf17b12ebe8658755bbeaecd2a102295.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/test/anomaly/54_jpg.rf.5c33176c7069cb7ea93b61e27093317c.jpg",
+                "mask_path": "smartshaped/container/ground_truth/anomaly/54_jpg.rf.5c33176c7069cb7ea93b61e27093317c.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/test/anomaly/60_png.rf.8fa147e313bd1bafdabc7eae492ce3bf.jpg",
+                "mask_path": "smartshaped/container/ground_truth/anomaly/60_png.rf.8fa147e313bd1bafdabc7eae492ce3bf.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/test/anomaly/61_png.rf.2af008d46130a61fcb6943cb69bf616a.jpg",
+                "mask_path": "smartshaped/container/ground_truth/anomaly/61_png.rf.2af008d46130a61fcb6943cb69bf616a.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/test/anomaly/636598363636205671_jpeg.rf.65f11d9b73128a734d6434fd61696d4e.jpg",
+                "mask_path": "smartshaped/container/ground_truth/anomaly/636598363636205671_jpeg.rf.65f11d9b73128a734d6434fd61696d4e.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/test/anomaly/64_png.rf.473f9b659c03f68f3afd0f2641120ad3.jpg",
+                "mask_path": "smartshaped/container/ground_truth/anomaly/64_png.rf.473f9b659c03f68f3afd0f2641120ad3.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/test/anomaly/80_jpg.rf.1a8882938748827b34ebb784e8d5cf23.jpg",
+                "mask_path": "smartshaped/container/ground_truth/anomaly/80_jpg.rf.1a8882938748827b34ebb784e8d5cf23.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/test/anomaly/87_jpg.rf.38d8610bbd0bc855beb34130b7a334b0.jpg",
+                "mask_path": "smartshaped/container/ground_truth/anomaly/87_jpg.rf.38d8610bbd0bc855beb34130b7a334b0.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/test/anomaly/88_jpg.rf.90640ca118a87be707374e25a80c90f5.jpg",
+                "mask_path": "smartshaped/container/ground_truth/anomaly/88_jpg.rf.90640ca118a87be707374e25a80c90f5.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/test/anomaly/89_jpg.rf.7d68a63d6c9588e34d34e3ba0dc1add1.jpg",
+                "mask_path": "smartshaped/container/ground_truth/anomaly/89_jpg.rf.7d68a63d6c9588e34d34e3ba0dc1add1.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/test/anomaly/94_jpg.rf.dca5e256d068f3183a4a43ab27cca450.jpg",
+                "mask_path": "smartshaped/container/ground_truth/anomaly/94_jpg.rf.dca5e256d068f3183a4a43ab27cca450.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/test/anomaly/B-grade-Container_jpg.rf.1fb492c5f7880593152e6826af13808d.jpg",
+                "mask_path": "smartshaped/container/ground_truth/anomaly/B-grade-Container_jpg.rf.1fb492c5f7880593152e6826af13808d.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/test/anomaly/vlc-record-2022-12-08-18h01m52s-NVR_ch2_main_20220902120000_20220902130000_mp4-_mp4-3_jpg.rf.b2900c35bd7490e1bf6d802dc9f6c70e.jpg",
+                "mask_path": "smartshaped/container/ground_truth/anomaly/vlc-record-2022-12-08-18h01m52s-NVR_ch2_main_20220902120000_20220902130000_mp4-_mp4-3_jpg.rf.b2900c35bd7490e1bf6d802dc9f6c70e.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/test/good/0001.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/test/good/0002.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/test/good/0003.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/test/good/0004.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/test/good/0005.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/test/good/0006.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/test/good/0007.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/test/good/0008.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/test/good/0009.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/test/good/0010.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/test/good/0011.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/test/good/0012.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/test/good/0013.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/test/good/0014.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/test/good/0015.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/test/good/0016.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/test/good/0017.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/test/good/0018.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/test/good/0019.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/test/good/0020.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/test/good/0021.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/test/good/0022.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/test/good/0023.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/test/good/0024.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/test/good/0025.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            }
+        ]
+    },
+    "valid": {
+        "container": [
+            {
+                "img_path": "smartshaped/container/valid/good/0001.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/valid/good/0002.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/valid/good/0003.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/valid/good/0005.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/valid/good/0028.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/valid/good/0032.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/valid/good/0036.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/valid/good/0041.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/valid/good/0055.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/valid/good/0059.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/valid/good/0071.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/valid/good/0075.jpg",
+                "mask_path": "",
+                "cls_name": "container",
+                "specie_name": "good",
+                "dataset_name": "container",
+                "anomaly": 0
+            },
+            {
+                "img_path": "smartshaped/container/valid/anomaly/0001.jpg",
+                "mask_path": "smartshaped/container/valid/ground_truth/0001.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/valid/anomaly/0008.jpg",
+                "mask_path": "smartshaped/container/valid/ground_truth/0008.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/valid/anomaly/0017.jpg",
+                "mask_path": "smartshaped/container/valid/ground_truth/0017.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/valid/anomaly/0027.jpg",
+                "mask_path": "smartshaped/container/valid/ground_truth/0027.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/valid/anomaly/0028.jpg",
+                "mask_path": "smartshaped/container/valid/ground_truth/0028.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            },
+            {
+                "img_path": "smartshaped/container/valid/anomaly/0033.jpg",
+                "mask_path": "smartshaped/container/valid/ground_truth/0033.png",
+                "cls_name": "container",
+                "specie_name": "anomaly",
+                "dataset_name": "container",
+                "anomaly": 1
+            }
+        ]
+    }
+}
