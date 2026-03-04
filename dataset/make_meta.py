@@ -69,7 +69,7 @@ class metaSolver(object):
 
 if __name__ == '__main__':
     
-    dataset_list = ["ISIC", "ClinicDB", "ColonDB", "HeadCT", "DTD", "HeadCT", "Endo", "BrainMRI", "Br35H", "BTAD", "DAGM", "KSDD2", "RSDD"]
+    #dataset_list = ["ISIC", "ClinicDB", "ColonDB", "HeadCT", "DTD", "HeadCT", "Endo", "BrainMRI", "Br35H", "BTAD", "DAGM", "KSDD2", "RSDD"]
     dataset_list = ["smartshaped"]
 
     for dataset_name in dataset_list:
