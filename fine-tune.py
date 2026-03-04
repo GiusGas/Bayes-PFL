@@ -130,7 +130,6 @@ def train(args):
     console_hander.setFormatter(formatter)
     logger.addHandler(console_hander)
 
-    # 记录参数
     for arg in vars(args):
         logger.info(f"{arg}: {getattr(args,arg)}")
 
@@ -264,9 +263,7 @@ def train(args):
     ap_max_pixel = 0
     ap_max_image = 0
 
-    # CHANGE: Increase from 3 to 7 or 10.
-    # Why: Fine-tuning causes metric fluctuation. Give the model time to stabilize
-    # on the container texture before deciding it has stopped learning.
+    # CHANGE: Increased from 3 to 7 or 10.
     early_stop_patience = 7
 
     stage = 1
@@ -339,25 +336,13 @@ def train(args):
             if stage == 1:
                 # The expression (loss_class +  loss_seg + loss_dist_reg) corresponds to the Prompt Flow Loss in Equation (7).
                 loss = loss_class + loss_seg + loss_dist_reg + loss_text
-                # # 1. Classification (already good, keep weight 1.0)
-                # 2. Segmentation (Boost weight to 5.0 to fix IoU/Pixel Precision)
-                # 3. Regularization (Drop weight to 0.01 to allow the model to adapt to containers)
-                # 4. Text Orthogonality (keep weight 1.0)
-
-                # loss = (
-                #     (1.0 * loss_class)
-                #     + (5.0 * loss_seg)
-                #     + (0.01 * loss_dist_reg)
-                #     + (1.0 * loss_text)
-                # )
             else:
                 loss = loss_class  # We found that training the classification network alone for a few epochs at the end can achieve better zero-shot classification performance.
             optimizer.zero_grad()
             loss.backward()
             optimizer.step()
             scheduler.step()
-            # for i, group in enumerate(optimizer_stage1.param_groups):
-            #     print(f"Group {i} LR: {group['lr']:.6f}")
+            
             loss_class_list.append(loss_class.item())
             loss_dist_reg_list.append(loss_dist_reg.item())
             loss_text_list.append(loss_text.item())
