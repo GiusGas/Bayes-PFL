@@ -2,6 +2,7 @@ import torch
 from torch import nn
 import numpy as np
 from torch.nn import functional as F 
+from torch.profiler import record_function
 import models.PFL as PFL
 from loss import binary_loss_function
 
@@ -240,6 +241,7 @@ class Context_Prompting(nn.Module):
 
         self.zk_n = None
         self.zk_a = None
+        self.iad_cache_enabled = False
 
     def _initialize_weights(self):
         """Initialize the weights."""
@@ -264,27 +266,43 @@ class Context_Prompting(nn.Module):
             sentence.append("X "+ name_new.lower())
         return sentence
     
+    def clear_iad_cache(self):
+        self.zk_n = None
+        self.zk_a = None
 
-
+    def set_iad_cache(self, enabled: bool):
+        self.iad_cache_enabled = bool(enabled)
+        self.clear_iad_cache()
 
     def forward_ensemble(self, model_text_encoder, global_img_feature, patch_img_feature ,names, device, tokenizer, mode = "train"):
         beta = 0
         # global_img = global_img_feature + self.fuse(patch_img_feature)
         global_img = global_img_feature   # Directly utilizing the original global image features from CLIP
 
-        x_mean, z_mu, z_var, log_det_jacobians, z0, zk = self.PFL_context(global_img.clone(), mode = mode)
-        x_mean_n, z_mu_n, z_var_n, log_det_jacobians_n, z0_n, zk_n = self.PFL_normal(global_img.clone(), mode = mode)
-        x_mean_a, z_mu_a, z_var_a, log_det_jacobians_a, z0_a, zk_a = self.PFL_abnormal(global_img.clone(), mode = mode)
 
+        with record_function("BayesPFL/ISD_context"):
+            x_mean, z_mu, z_var, log_det_jacobians, z0, zk = \
+                self.PFL_context(global_img.clone(), mode=mode)
 
-        if self.zk_n is None and self.zk_a is None and mode != "train":  # 
-            self.zk_n = zk_n
-            self.zk_a = zk_a
-        
+        iad_cache_hit = (
+            mode != "train"
+            and self.iad_cache_enabled
+            and self.zk_n is not None
+            and self.zk_a is not None
+        )
+
+        if not iad_cache_hit:
+            x_mean_n, z_mu_n, z_var_n, log_det_jacobians_n, z0_n, zk_n = \
+                self.PFL_normal(global_img.clone(), mode=mode)
+            x_mean_a, z_mu_a, z_var_a, log_det_jacobians_a, z0_a, zk_a = \
+                self.PFL_abnormal(global_img.clone(), mode=mode)
+
+            if mode != "train" and self.zk_n is None and self.zk_a is None:
+                self.zk_n = zk_n.detach()
+                self.zk_a = zk_a.detach()
+
         if mode != "train":
-            zk_n = self.zk_n
-            zk_a = self.zk_a
-
+            zk_n, zk_a = self.zk_n, self.zk_a
 
         #Compute the loss 
         if mode == "train":
@@ -308,8 +326,17 @@ class Context_Prompting(nn.Module):
         visual_abnormal = torch.cat([self.prompt_context , self.prompt_state_abnormal], dim = 1)
         prompt_names = self.prompt_names(names)
         prompt_names = tokenizer(prompt_names).to(device)
-        normal_embeddings = model_text_encoder(prompt_names, visual_normal, [zk, zk_n], mode = mode)
-        abnormal_embeddings = model_text_encoder(prompt_names, visual_abnormal, [zk, zk_a], mode = mode) 
+
+        with record_function("BayesPFL/TextEncoder_normal"):
+            normal_embeddings = model_text_encoder(
+                prompt_names, visual_normal, [zk, zk_n], mode=mode
+            )
+
+        with record_function("BayesPFL/TextEncoder_abnormal"):
+            abnormal_embeddings = model_text_encoder(
+                prompt_names, visual_abnormal, [zk, zk_a], mode=mode
+            )
+
         text_embeddings = torch.cat([normal_embeddings, abnormal_embeddings], dim =1)
         text_embeddings = text_embeddings / text_embeddings.norm(dim = -1,keepdim = True)
         return text_embeddings, [rec, 0.01 * kl ,0.01 * kl_n ,0.01 * kl_a]
@@ -323,7 +350,12 @@ class Context_Prompting(nn.Module):
             pro_img = self.temperature_image.exp() * text_embeddings_mapping @ image_embeddings_mapping.unsqueeze(2)
             anomaly_maps_list = []
             for layer in range(len(patch_tokens)):
-                text_embeddings_update, dense_feature = self.RCA(text_features, patch_tokens[layer].clone(), layer)
+                with record_function(f"BayesPFL/RCA_layer_{layer}"):
+                    text_embeddings_update, dense_feature = self.RCA(
+                        text_features,
+                        patch_tokens[layer].clone(),
+                        layer
+                    )
                 anomaly_map = (self.temperature_pixel.exp() * dense_feature @ text_embeddings_update.permute(0,2,1))
                 B, L, C = anomaly_map.shape
                 H = int(np.sqrt(L))
@@ -345,7 +377,11 @@ class Context_Prompting(nn.Module):
             with torch.no_grad():
                 anomaly_maps_list = []
                 for layer in range(len(patch_tokens)):
-                    text_embeddings_update, dense_feature = self.RCA(text_features, patch_tokens[layer].clone(), layer)
+                    text_embeddings_update, dense_feature = self.RCA(
+                                            text_features,
+                                            patch_tokens[layer].clone(),
+                                            layer
+                                        )
                     anomaly_map = (self.temperature_pixel.exp() * dense_feature @ text_embeddings_update.permute(0,2,1))
                     B, L, C = anomaly_map.shape
                     H = int(np.sqrt(L))

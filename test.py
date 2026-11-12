@@ -17,6 +17,14 @@ from models.VPB import TextEncoder
 from models.model_CLIP import Load_CLIP, tokenize
 from datasets import Makedataset
 from torchvision.transforms import Compose, Resize, CenterCrop, ToTensor, Normalize
+from torch.profiler import (
+    profile,
+    ProfilerActivity,
+    record_function,
+    schedule,
+)
+
+
 def _convert_image_to_rgb(image):
     return image.convert("RGB")
 try:
@@ -134,6 +142,36 @@ def test(args):
         stage = int(args.checkpoint_path[:-4].split("_")[-1])
     else:
         stage = 2
+
+    # Directory in cui salvare i risultati
+    profile_dir = os.path.join(save_path, "profiler")
+    os.makedirs(profile_dir, exist_ok=True)
+
+    # Attività da monitorare
+    activities = [ProfilerActivity.CPU]
+
+    if device.type == "cuda":
+        activities.append(ProfilerActivity.CUDA)
+
+    # Configurazione profiler
+    prof = profile(
+        activities=activities,
+        schedule=schedule(
+            wait=3,
+            warmup=2,
+            active=5,
+            repeat=1
+        ),
+        on_trace_ready=lambda p: p.export_chrome_trace(
+            os.path.join(profile_dir, "bayespfl_trace.json")
+        ),
+        record_shapes=False,
+        profile_memory=False,
+        with_stack=False
+    )
+
+    prof.start()
+
     for items in tqdm(test_dataloader):
         id = id + 1
         image = items['img'].to(device)
@@ -145,10 +183,36 @@ def test(args):
         results['imgs_masks'].append(gt_mask)  # px
         
         with torch.no_grad():
-            image_features, _ , patch_tokens =  model_clip.encode_image(image, args.features_list)
-            text_embeddings, _ = MyModel.forward_ensemble(PFL_TextEncoder, image_features, patch_tokens ,cls_name, device, tokenizer, mode = "test") # # B * R text embeddings
+             # 1. CLIP IMAGE ENCODER
+            with record_function("BayesPFL/CLIP_Image_Encoder"):
+                image_features, _, patch_tokens = model_clip.encode_image(
+                    image, args.features_list
+                )
+
+            # 2. PROMPT FLOW + TEXT ENCODER
+            with record_function("BayesPFL/Prompt_Generation_Total"):
+                text_embeddings, _ = MyModel.forward_ensemble(
+                    PFL_TextEncoder,
+                    image_features,
+                    patch_tokens,
+                    cls_name,
+                    device,
+                    tokenizer,
+                    mode="test"
+                )
+
             temp_cls = 0
-            pro_img, anomaly_maps_list = MyModel(text_embeddings, image_features, patch_tokens, stage = stage, mode = "test")
+
+            # 3. RCA + ANOMALY SCORING
+            with record_function("BayesPFL/Localization_Total"):
+                pro_img, anomaly_maps_list = MyModel(
+                    text_embeddings,
+                    image_features,
+                    patch_tokens,
+                    stage=stage,
+                    mode="test"
+                )
+
             pro_img = pro_img.squeeze(2)
             for i in range(args.prompt_num * args.sample_num): # B * R anomaly scores
                 text_probs = torch.cat([pro_img[:,i].unsqueeze(0), pro_img[:,i + args.prompt_num * args.sample_num].unsqueeze(0)], dim = 1).softmax(dim = -1)
@@ -166,6 +230,33 @@ def test(args):
             results['pr_sp'].append(temp_cls.cpu().numpy())
         path = items['img_path']
         results['path'].extend(path)
+        prof.step()
+
+
+    prof.stop()
+
+    # Tabella dei tempi dei componenti
+    sort_key = (
+        "cuda_time_total"
+        if device.type == "cuda"
+        else "cpu_time_total"
+    )
+
+    profile_table = prof.key_averages().table(
+        sort_by=sort_key,
+        row_limit=40
+    )
+
+    print("\n=== BAYES-PFL PROFILER ===")
+    print(profile_table)
+
+    # Salva anche la tabella in un file di testo
+    with open(
+        os.path.join(profile_dir, "profile_summary.txt"),
+        "w",
+        encoding="utf-8"
+    ) as f:
+        f.write(profile_table)
 
     datasets_only_classification =  ["HeadCT", "BrainMRI", "Br35H"]  # These datasets lack ground truth, so only zero-shot anomaly classification metrics are calculated.
     if args.dataset in datasets_only_classification:

@@ -315,7 +315,7 @@ def resize_pos_embed(state_dict, model, interpolation: str = 'bicubic', antialia
 
 from typing import Any, Union, List
 from .simple_tokenizer import SimpleTokenizer as _Tokenizer
-from pkg_resources import packaging
+import packaging
 _tokenizer = _Tokenizer()
 
 def tokenize(texts: Union[str, List[str]], context_length: int = 77, truncate: bool = False) -> Union[torch.IntTensor, torch.LongTensor]:

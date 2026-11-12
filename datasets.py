@@ -300,7 +300,7 @@ class MyDataset(data.Dataset):
 			img, img_mask = self.combine_img(cls_name)   
 			anomaly = 1
 		else:
-			img = Image.open(os.path.join(self.root, img_path))
+			img = Image.open(os.path.abspath(os.path.normpath(os.path.join(self.root, img_path))))
 			if anomaly == 0:
 				img_mask = Image.fromarray(np.zeros((img.size[1], img.size[0])), mode='L')
 			else:
